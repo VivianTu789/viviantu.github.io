@@ -30,6 +30,27 @@ This repo is a clone of
 
 
 
+# Part 1
+![Part 1 screenshot](ECE444Part1.png)
+
+# Part 2
+![Repo screenshot](ECE444Part2Repo.png)
+![Deployed website screenshot](ECE444Part2Site.png)
+
+# Part 3
+![Repo screenshot](ECE444Part3Repo.png)
+![Deployed website screenshot](ECE444Part3Site.png)
+
+# Part 4
+![Repo screenshot](ECE444Part4Repo.png)
+![Places travelled page](ECE444Part4Site.png)
+
+# Part 5, Additional screenshot showcases before and after pressing Load More
+![Repo screenshot](ECE444Part5Repo.png)
+![Projects page Before](ECE444Part5Before.png)
+![Projects page After](ECE444Part5After.png)
+
+
 
 
 
