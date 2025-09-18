@@ -6,10 +6,16 @@ This repo is a clone of
 >
 > Part 1: The read me!
 > <img width="1871" height="773" alt="image" src="https://github.com/user-attachments/assets/01250b32-a73a-41ef-820d-dedb048cee90" />
-> Part 2: The Web page with updated info:
+> Part 2: The Web page with updated info (Note: I had accidentally made a mistake in my github repo name, which caused issues rendering the page, it has been fixed later):
 > <img width="1586" height="706" alt="image" src="https://github.com/user-attachments/assets/e6cbbea8-0e78-436d-bc35-e3584c5f6430" />
 > Part 2: The updated repo:
 > <img width="1876" height="814" alt="image" src="https://github.com/user-attachments/assets/6d19fd2f-cbcc-419f-9d3f-2dbdafca595a" />
+> Part 3: Changing Colour Theme:
+> <img width="1873" height="879" alt="image" src="https://github.com/user-attachments/assets/e4f767c6-9a57-4bf5-b50b-fa0515ce52ca" />
+> Part 3: The Update Repo:
+> <img width="1848" height="803" alt="image" src="https://github.com/user-attachments/assets/a6dad7cc-4766-4c6d-afca-49868821c222" />
+
+
 
 
 
