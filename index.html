@@ -322,27 +322,11 @@
       <div class="container">
         <div class="row">
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Banana Ripeness Classification Model via AI-Deep learning<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A banana ripeness classification model via PyTorch and Numpy Libries and Google Colab.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> PyTorch, Numpy, Google Colab</li>
-                  <li>Implemented a Convolutional Neural Network (CNN) model that also utitlizes transfer learning to achieve a 90% overall accuracy and F1 score.</li>
-                </ul>
-              </div>
-            </div>
+          <h2>Recent Projects</h2>
+          <div id="recent-projects" class="row">
+            <!-- Projects will be injected here by JavaScript -->
           </div>
+          <button id="load-more">Load More</button>
           <!-- ************* -->
         </div>
       </div>
@@ -510,6 +494,84 @@
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
     })
+  </script>
+
+  <script>
+    // Array of project objects
+    const projects = [
+      {
+        title: "Geographic Information System (GIS) Software Program",
+        description: "A Google Maps-like software program that allows users to find the fastest route to their destination.",
+        accomplishments: [
+          "Tools: GTK, Git",
+          "Implemented Heuristic Algorithms using C++, GTK and Git with a team of 3 to create a GIS (UI included) that approximates a solution to a variant of the Travelling Salesman problem."
+        ]
+      },
+      {
+        title: "MCP Server",
+        description: "A MCP Server that allows users to interact with Confluence Pages and their code repositories.",
+        accomplishments: [
+          "Tools: Kiro, Confluence, Bitbucket, Jira",
+          "Created a MCP Server that allows users to interact with Confluence Pages and their code repositories to code tests and create pull requests automatically."
+        ]
+      },
+      {
+        title: "Banana Ripeness Classification Model via AI-Deep learning",
+        description: "A banana ripeness classification model via PyTorch and Numpy Libraries and Google Colab.",
+        accomplishments: [
+          "Tools: PyTorch, Numpy, Google Colab",
+          "Implemented a Convolutional Neural Network (CNN) model that also utilizes transfer learning to achieve a 90% overall accuracy and F1 score."
+        ]
+      }
+    ];
+
+    let projectsLoaded = 1; // start by showing only the latest project
+
+    // Function to display projects in the "recent-projects" div
+    function displayProjects() {
+      const container = document.getElementById("recent-projects");
+      container.innerHTML = ""; // clear existing content
+
+      // Slice the last N projects to display
+      const projectsToShow = projects.slice(-projectsLoaded);
+
+      projectsToShow.forEach(project => {
+        const colDiv = document.createElement("div");
+        colDiv.className = "col s12 m6 l4";
+
+        colDiv.innerHTML = `
+          <div class="card medium">
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">${project.title}<i class="mdi-navigation-more-vert right"></i></span>
+              <p>${project.description}</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                ${project.accomplishments.map(item => `<li>${item}</li>`).join("")}
+              </ul>
+            </div>
+          </div>
+        `;
+
+        container.appendChild(colDiv);
+      });
+
+      // Hide "Load More" button if all projects are displayed
+      if (projectsLoaded >= projects.length) {
+        document.getElementById("load-more").style.display = "none";
+      }
+    }
+
+    // Initial display
+    displayProjects();
+
+    // Load more button functionality
+    document.getElementById("load-more").addEventListener("click", () => {
+      projectsLoaded += 1;
+      displayProjects();
+    });
+
   </script>
 </body>
 
