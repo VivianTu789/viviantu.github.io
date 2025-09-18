@@ -3,6 +3,9 @@
 This repo is a clone of
 > https://github.com/varadbhogayata/varadbhogayata.github.io 
 > https://varadbhogayata.github.io
+>
+> <img width="1871" height="773" alt="image" src="https://github.com/user-attachments/assets/01250b32-a73a-41ef-820d-dedb048cee90" />
+
 
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
