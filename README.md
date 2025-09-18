@@ -18,6 +18,16 @@ This repo is a clone of
 > <img width="1892" height="890" alt="image" src="https://github.com/user-attachments/assets/9f707e45-b9ba-4a8e-8933-9a7084b0f59a" />
 > Part 4: The Updated Repo with Google Maps:
 > <img width="1867" height="799" alt="image" src="https://github.com/user-attachments/assets/06cec536-39fe-4d45-a494-9ed6ad9da52d" />
+> Part 5: Dynamically load all projects:
+> First: The latest project and load more button
+> <img width="1835" height="835" alt="image" src="https://github.com/user-attachments/assets/8bc83c22-8d97-42cf-a03a-24fe9231cd6f" />
+>Then: Load all projects:
+> <img width="1860" height="618" alt="image" src="https://github.com/user-attachments/assets/030b66ad-feb5-439d-a460-6e43c5dbf0b9" />
+> Part 5: The Updated Repo with scripts to dynamically load projects:
+> <img width="1439" height="826" alt="image" src="https://github.com/user-attachments/assets/ff796be7-cebb-48fd-90ce-09105bb909cb" />
+
+
+
 
 
 
