@@ -23,8 +23,8 @@ Note I incorrectly named my github repo originally leading to errors rendering, 
 # Part 5
 Additional screenshot showcases before and after pressing Load More
 ![Repo screenshot](assets/img/ECE444Part5Repo.png)
-![Projects page Before](assets/img/ECE444Part5Before.png)
-![Projects page After](assets/img/ECE444Part5After.png)
+![Projects page Before](assets/img/ECE444Part5SiteBefore.png)
+![Projects page After](assets/img/ECE444Part5SiteAfter.png)
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
