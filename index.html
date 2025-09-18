@@ -497,7 +497,6 @@
   </script>
 
   <script>
-    // Array of project objects
     const projects = [
       {
         title: "Geographic Information System (GIS) Software Program",
@@ -525,14 +524,12 @@
       }
     ];
 
-    let projectsLoaded = 1; // start by showing only the latest project
+    let projectsLoaded = 1; 
 
-    // Function to display projects in the "recent-projects" div
     function displayProjects() {
       const container = document.getElementById("recent-projects");
       container.innerHTML = ""; // clear existing content
 
-      // Slice the last N projects to display
       const projectsToShow = projects.slice(-projectsLoaded);
 
       projectsToShow.forEach(project => {
@@ -557,16 +554,13 @@
         container.appendChild(colDiv);
       });
 
-      // Hide "Load More" button if all projects are displayed
       if (projectsLoaded >= projects.length) {
         document.getElementById("load-more").style.display = "none";
       }
     }
 
-    // Initial display
     displayProjects();
 
-    // Load more button functionality
     document.getElementById("load-more").addEventListener("click", () => {
       projectsLoaded = project.length;
       displayProjects();
