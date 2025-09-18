@@ -8,12 +8,18 @@ This repo is a clone of
 > <img width="1871" height="773" alt="image" src="https://github.com/user-attachments/assets/01250b32-a73a-41ef-820d-dedb048cee90" />
 > Part 2: The Web page with updated info (Note: I had accidentally made a mistake in my github repo name, which caused issues rendering the page, it has been fixed later):
 > <img width="1586" height="706" alt="image" src="https://github.com/user-attachments/assets/e6cbbea8-0e78-436d-bc35-e3584c5f6430" />
-> Part 2: The updated repo:
+> Part 2: The updated repo With updated info:
 > <img width="1876" height="814" alt="image" src="https://github.com/user-attachments/assets/6d19fd2f-cbcc-419f-9d3f-2dbdafca595a" />
 > Part 3: Changing Colour Theme:
 > <img width="1873" height="879" alt="image" src="https://github.com/user-attachments/assets/e4f767c6-9a57-4bf5-b50b-fa0515ce52ca" />
-> Part 3: The Update Repo:
+> Part 3: The Update Repo with Colour Change:
 > <img width="1848" height="803" alt="image" src="https://github.com/user-attachments/assets/a6dad7cc-4766-4c6d-afca-49868821c222" />
+> Part 4: Embedded Google Maps:
+> <img width="1892" height="890" alt="image" src="https://github.com/user-attachments/assets/9f707e45-b9ba-4a8e-8933-9a7084b0f59a" />
+> Part 4: The Updated Repo with Google Maps:
+> <img width="1867" height="799" alt="image" src="https://github.com/user-attachments/assets/06cec536-39fe-4d45-a494-9ed6ad9da52d" />
+
+
 
 
 
