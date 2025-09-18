@@ -4,7 +4,11 @@ This repo is a clone of
 > https://github.com/varadbhogayata/varadbhogayata.github.io 
 > https://varadbhogayata.github.io
 >
+> Part 1: The read me!
 > <img width="1871" height="773" alt="image" src="https://github.com/user-attachments/assets/01250b32-a73a-41ef-820d-dedb048cee90" />
+> Part 2: The Web page with updated info:
+> <img width="1586" height="706" alt="image" src="https://github.com/user-attachments/assets/e6cbbea8-0e78-436d-bc35-e3584c5f6430" />
+
 
 
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
