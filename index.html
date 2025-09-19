@@ -565,6 +565,14 @@
 
       if (projectsLoaded >= projects.length) {
         document.getElementById("load-more").style.display = "none";
+      } else {
+        document.getElementById("load-more").style.display = "block";
+      }
+
+      if (projectsLoaded == 1) {
+        document.getElementById("load-less").style.display = "none";
+      } else {
+        document.getElementById("load-less").style.display = "block";
       }
     }
 
