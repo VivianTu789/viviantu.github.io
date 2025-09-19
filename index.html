@@ -126,6 +126,14 @@
       </li>
 
       <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Places Travelled section" href="#places-travelled" class="waves-effect waves-dark teal-text"><i
+            class="mdi-earth small"></i><span>Places-Traveled</span></a>
+      </li>
+
+      <li class="bold">
         <!-- 
         1. mdi-communication-contacts
         2. mdi-content-mail
@@ -190,7 +198,7 @@
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Places Travelled section" href="#places-travelled" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Places Travelled</span></a>
+            class="mdi-earth small"></i><span>Places Travelled</span></a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
@@ -327,6 +335,7 @@
             <!-- Projects will be injected here by JavaScript -->
           </div>
           <button id="load-more">Load More</button>
+          <button id="load-less">Show Less</button>
           <!-- ************* -->
         </div>
       </div>
@@ -557,12 +566,21 @@
       if (projectsLoaded >= projects.length) {
         document.getElementById("load-more").style.display = "none";
       }
+
+      if (projectsLoaded >= projects.length){
+        document.getElementById("load-less").style.display = "none";
+      }
     }
 
     displayProjects();
 
     document.getElementById("load-more").addEventListener("click", () => {
       projectsLoaded = projects.length;
+      displayProjects();
+    });
+
+    document.getElementById("load-less").addEventListener("click", () => {
+      projectsLoaded = 1;
       displayProjects();
     });
 
